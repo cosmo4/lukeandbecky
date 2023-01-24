@@ -83,6 +83,7 @@ body {
 }
 .date-location p {
     font-size: 2em;
+    padding-bottom: 100px;
 }
 .date-location img {
     width: 10%;
