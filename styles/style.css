@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300&display=swap');
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+html{
+    font-family: 'Cormorant Upright';
+    background-color: #fff2f1;
+}
+header {
+    text-align: center;
+}
+header a {
+    font-size: 5em;
+    font-weight: lighter;
+    text-decoration: none;
+    color: black
+}
+body {
+    min-width: 1000px;
+}
+.navmain a {
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.underline-hover {
+    display: inline-block;
+    padding-bottom: .25rem;
+    position: relative;
+}
+.underline-hover::before {
+    content: "";
+    position: absolute;
+    left: 2;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.5s ease-out;
+  }
+  .underline-hover:hover::before {
+    width: 66%;
+    text-align: center;
+  }
+.underline-hover-home {
+    display: inline-block;
+    padding-bottom: .25rem;
+    position: relative;
+}
+.underline-hover-home::before {
+    content: "";
+    position: absolute;
+    left: 2;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);
+    transition: width 0.5s ease-out;
+  }
+  .underline-hover-home:hover::before {
+    width: 60%;
+    text-align: center;
+  }
+.mainImg {
+    width: 100%;
+    text-align: center;
+    padding-top: 50px;
+}
+.mainImg img {
+    width: 100%
+}
+.general-info {
+    margin-top: 200px;
+}
+.date-location {
+    text-align: center;
+}
+.date-location h2 {
+    font-size: 3em;
+}
+.date-location p {
+    font-size: 2em;
+}
+.date-location img {
+    width: 10%;
+    border-radius: 150px;
+}
+.coming-soon {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 10px;
+    box-sizing: border-box;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url(../images/look.jpg);
+    background-size: 100%;
+}
+.coming-soon h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+.countdown {
+    font-family:'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40%;
+}
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 3rem;
+    padding: 20px;
+}
+.waiting {
+    height: 50vh;
+}
