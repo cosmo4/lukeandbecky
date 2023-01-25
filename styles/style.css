@@ -24,6 +24,7 @@ body {
     color: black;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 40px;
 }
 
 .underline-hover {
@@ -67,7 +68,7 @@ body {
 .mainImg {
     width: 100%;
     text-align: center;
-    padding-top: 50px;
+    padding-top: 40px;
 }
 .mainImg img {
     width: 100%
